@@ -1,0 +1,183 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+html
+{
+  width:100%; 
+  margin: 0 15px 0 15px;
+  padding: 0;
+}
+.w-100
+{
+  width: 100%;
+}
+.container
+{
+  padding: 0;
+  margin: 0;
+}
+.bl-none
+{
+  display: none;
+}
+.pos-absolute
+{
+  position: absolute;
+}
+.pos-relative
+{
+  position: relative;
+}
+.carousel{
+  height: 680px !important;
+  overflow: hidden;
+}
+.carousel-inner {
+  overflow: visible;
+  height: 100%;
+}
+.carousel-inner img {
+  left: 50%;
+  max-width: none !important;
+  min-height: 700px;
+  min-width: 100%;
+  max-width: 1200px;
+  position: absolute;
+  top: 340px;
+  transform: translate(-50%,-50%);
+}
+.specialBlack
+{
+  background: rgba(0,0,0, 0.75);
+  color: white;
+}
+.margin80px
+{
+  margin-top: 8%;
+}
+.paddingVertical
+{
+  padding-top: 3%; 
+  padding-bottom: 3%;
+}
+.head
+{
+  width: 100;
+  background-color: snow;
+  height: 200px;
+  z-index: 20000;
+  
+}
+.opasity0-85
+{
+  opacity: 0.85;
+}
+.centerAling
+{ 
+  text-align: center;
+}
+.alingMiddle
+{
+  margin: 0 auto;
+}
+.Theight415
+{
+  margin: 15% 0 25% 0;
+  min-height: 400px;
+}
+.margin100px
+{
+  margin-top: 100px;
+}
+.darkNavy
+{
+  background-color: rgba(83, 88, 183, 1);
+}
+.twoSideShadow:hover
+{
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+  background-color: rgba(216, 29, 29, 0.93);
+}
+.twoSideShadow
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.navyC
+{
+  color: #337ab7;
+}
+.Citate
+{
+  opacity: 0.8;
+}
+.marginTop40
+{
+  margin-top: 40px;
+}
+.headerDivStyle
+{
+  
+  padding: 10px;
+  border: 5px solid #ff9300;
+  border-radius: 20px;
+  margin: auto;   
+  z-index: 30000;
+  top: 400px;
+  left: 50%;   
+  -webkit-transform: translate(-50%,-50%);    
+  -ms-transform: translate(-50%,-50%);        
+  transform: translate(-50%,-50%);
+}
+.headerTextStyle
+{
+  size: 1.5em;
+  color: #ff9300;
+  text-align: center;
+}
+.navbar-collapse .collapse
+{
+  background-color: rgba(0,0,0, 1);
+}
+.normalWhiteSpace
+{
+  white-space: normal;
+}
+.bMargin30
+{
+  margin-bottom: 30px;
+}
+.t-snow
+{
+  color: snow;
+}
+.b-snow
+{
+  background-color: snow;
+}
+.b-black
+{
+  background-color: rgba(0,0,0,0.8);
+}
+.navbar{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 0;
+  margin-right: 0 auto !important;
+
+
+}
+.t-aling-r
+{
+  box-sizing: border-box;
+  padding-right: 15px;
+  text-align: right;
+}
+.bBottom
+{
+ border: 1 solid rgba(0,0,0,0.8);
+ border-radius: 10px 10px 0 0; 
+}
